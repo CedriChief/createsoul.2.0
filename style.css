@@ -1,0 +1,106 @@
+body{
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgb(242, 241, 244);
+}
+nav a{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    background-color: rgb(48, 168, 148);
+    text-decoration: none;
+    color: rgb(219, 240, 237);
+
+}
+header{
+    text-align: center;
+}
+.block-droit{
+    background-color: rgb(184, 220, 117);
+    display: none;
+}
+
+.reduction{
+max-width: 100%;
+height: auto;
+}
+footer{
+    text-align: center;
+
+}
+.img-footer{
+    width: 50px;
+    height: 50px;
+}
+.tablette {
+    max-width: 100%;
+height: auto;
+display: none;
+}
+.destkop{
+    display: none;
+}
+
+
+
+
+/* media queries pour la tablette  */
+@media (min-width: 768px) {
+
+
+.block-droit {
+    display: block;
+}
+
+.tablette {
+    max-width: 100%;
+height: auto;
+display: block;
+}
+
+.reduction{
+   display: none;
+ }
+.destkop{
+    display: none;
+}
+}
+
+
+
+/* media queries pour la tablette  */
+@media (min-width: 1200px) {
+    
+
+    NAV {
+          background-color: rgb(48, 168, 148);
+    }
+    nav a{
+        display: inline-block;
+        background-color: rgb(48, 168, 148);
+        width: 30%;
+    }
+    .block-droit{
+        width: 30%;
+        display: inline-block;
+        vertical-align: top;
+        
+    }
+    .destkop{
+        display: block;
+        width: 100%;
+    }
+    .reduction{
+        display: none;
+    }
+    .tablette{
+        display: none;
+    }
+    .block-gauche{
+        width: 68%;
+        display: inline-block;
+        margin-right: 1.5%;
+    } 
+
+
+}
